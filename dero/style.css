@@ -1,0 +1,1211 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&display=swap');    
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Open Sans';}
+
+
+
+
+body{
+    background-color: #fafafa;
+}
+
+.positionSpan{
+    margin-left: 5px;
+}
+header{
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 5px;
+    background-color: #ffffff;
+}
+
+header .logo img{
+    margin-right: 10px;
+    width: 100px; height: 100px;
+}
+
+header nav {
+    display: flex;
+}
+
+header nav ul{
+    display: flex;
+    align-items: center;
+    padding: 0px 15px;
+}
+
+header nav ul li{
+    list-style: none;
+    margin-right: 10px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+header .contact 
+{
+    display: flex;
+    color: black;
+    align-items: center;
+}
+header .contact .tel{
+    margin-left: 10px;
+}
+header .contact .tel a{
+    font-size: 24px;
+}
+header .contact a{
+    text-decoration: none;
+    color: black;
+}
+header .contact .loc{
+    text-decoration:underline;
+}
+
+.bottom{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.bottom ul{
+    display: flex;
+}
+.bottom .nav ul li{
+    list-style: none;
+    margin-right: 30px;
+}
+.bottom ul li a{
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.bottom .order{
+    background-color:#faba2d;
+    padding: 15px 40px;
+    margin: 10px 20px 0px 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.bottom .order ul li{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+main .under_header{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    background-color: #faba2d;
+}
+main .under_header .left{
+    width: 60%;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    background-color: #353047;
+    padding: 50px;
+}
+
+main .under_header .left .up{
+    padding: 125px 0px 0px 0px;
+}
+main .under_header .left .up h3{
+    padding: 24px 0px;
+}
+
+main .under_header .left > .bottom{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+main .under_header .left > .bottom > input{
+    padding:  15px 50px;
+    border-radius: 10px;
+}
+
+main .under_header .left > .bottom > form > input::placeholder{
+    font-size: 16px;
+    color: darkgray;
+    font-weight: bold;
+}
+
+main .under_header .left > .bottom > .flex{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+    padding: 0px;
+}
+
+main .under_header .left > .bottom form
+{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+main .under_header .left > .bottom form > label{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+main .under_header .left > .bottom form >label> input{
+    padding: 10px 0px   ;
+    width: 100%;
+
+}
+main .under_header .left > .bottom form button{
+    background-color: #faba2d;
+    padding: 10px 0px;
+}
+
+main .under_header .right{
+    padding: 0px 0px 0px;
+}
+
+main .under_header .right .box{
+    padding: 15px 10px 15px 15px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+main .under_header .right .box ul li{
+    margin: 20px 30px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+
+main .under_header .right .box ul li a{
+    padding: 0px 10px;
+    margin-right: 10px;
+    background-color: #faba2d;
+    text-decoration: none;
+    font-size: 32px;
+    color: black;
+    border-radius: 32px;
+    text-align: center;
+}
+
+main .counter {
+    padding: 54px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+main .counter h1{
+    font-size: 42px;
+    font-weight: bold;
+    
+}
+main .counter h3{
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+main .car{
+    width: 100%;
+    background-color: #faba2d;
+}
+
+main .car_c{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 5px;
+    background-color:#faba2d;
+}
+main .car_c > div{
+    width: 50%;
+    padding: 0px 15px;
+    margin: 0px 52px;
+    display: flex;
+    flex-direction: column;
+}
+main .car_c img{
+    margin: 0px 52px;
+}
+main .car_c h5{
+    font-size: 42px;
+    font-weight: bold;
+}
+main .car_c > div a{
+    width: fit-content;
+    margin-top: 20px;
+    padding: 20px 70px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #353047;
+}
+
+main .checks .section{
+    padding: 60px 15px 0px;
+}
+
+main .checks .checks_main{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+} 
+
+main .checks .checks_main .boxes h1{
+    font-size: 42px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+main .checks .checks_main .boxes h6{
+    font-size: 16px;
+    padding: 10px;
+}
+main .checks .checks_main .boxes{
+    display: flex;
+    margin-bottom: 35px;
+}
+main .checks .checks_main .boxes img{
+    padding: 10px;
+}
+
+main .checks .checks_main .mid{
+    padding: 40px;
+    display: flex;
+    align-items: center;
+}
+
+main .save .section_main{
+    padding: 35px 15px;
+    display: flex;
+    justify-content: center;
+    background-color: #353047;
+    color: white;
+    margin-top: 30px;
+}
+
+main .save .save_cont{
+    display: flex;
+}
+main .save .save_cont .content{
+    padding: 30px;
+    text-align: center;
+    width: 100%;
+}
+main .save .save_cont .content img{
+    width: 150px;
+    height: 150px;
+}
+main .save .save_cont .content h1{
+    font-size: 32px;
+    font-weight: bold;
+}
+main .save .save_cont .content h6{
+    font-size: 18px;
+    font-weight: 300;
+}
+main .save .b_save{
+    display: flex;
+    justify-content: center;
+}
+main .save a{
+    background-color: #faba2d;
+    width: fit-content;
+    padding: 20px 70px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+}
+main .ad{
+    display: block;
+    box-sizing: border-box;
+    outline: none;
+}
+
+main .ad .ad_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 15px;
+}
+main .ad .ad_section h1{
+    font-size: 42px;
+    font-weight: bold;
+}
+main .ad .ad_section span{
+    border-bottom: #faba2d 10px inset;
+}
+main .ad .ad_container{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding: 0px 30px;
+    margin-bottom: 50px;
+    
+}
+
+main .ad .ad_container .ad_content {
+    margin-bottom: 4px;
+    margin-left: 20px;
+    background-color: #e9e9e9;
+}
+main .ad .ad_container .ad_content div:first-of-type img{
+    height: 360px;
+    width: 100%;
+    object-fit: cover;
+    max-width: 100%;
+    margin: 0;
+    border-radius: 4px;
+}
+
+main .ad .ad_container .ad_content div:last-of-type{
+    padding: 20px;
+}
+
+main .ad .ad_container .ad_content div:last-of-type h1{
+    padding: 10px 0px;
+    font-size: 24px;
+}
+main .ad .ad_container .ad_content div:last-of-type p{
+    font-size: 16px;
+    padding: 20px;
+}
+
+main .ad .ad_container .ad_content div:last-of-type a{
+    background-color: #8c8b8b;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: black;
+}
+
+main .ad_2{
+    background-color: #faba2d;
+    display: flex;
+    padding: 30px;
+}
+main .ad_2 .ad_left {
+    padding: 60px;
+}
+main .ad_2 .ad_left > h1{
+    font-size: 42px;
+    font-weight: bold;
+    padding: 20px 0px;
+}
+
+main .ad_2 .ad_left h5{
+    margin: 35px 0px;
+    font-size: 16px;
+}
+
+main .ad_2 .ad_left > .bottom{
+    margin: 0px 0px 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+main > .ad_2 .ad_left > div:last-of-type > div  h3{
+    margin-bottom: 10px;
+    font-size: 42px;
+    padding: 20px;
+}
+
+main .ad_2 > .right{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 100px;
+    border-radius: 5px;
+    
+}
+main .ad_2 .right .box{
+    height: 100%;
+}
+main  .ad_2  .right  .box  .section > p{
+    margin: 16px 0px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+main  .ad_2  .right  .box  .section > h1{
+    margin: 16px 0px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+main .ad_2 .right .box .inputs{
+    margin: 5px 0px 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+main .ad_2 .right .box .inputs input{
+    margin:10px 40px;
+    padding: 20px 3px;
+    border: black 1px inset;
+    border-radius: 5px;
+}
+
+main .ad_2 .right .box .inputs a{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 0px 40px;
+    background-color: black;
+    color:white;
+    font-size: 16px;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+main  .ad_2 .right .box .inputs h6{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+main .ad_2 .right .box .inputs span{
+    color: #faba2d;
+    text-decoration: underline;
+}
+
+main .service .section{
+    padding: 60px 15px;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+
+main .service{
+    display: block;
+    box-sizing: border-box;
+    outline: none;
+}
+
+main .service .box{
+    display: flex;
+    width: 100%;
+}
+
+main .service .box .content{
+    width: 100%;
+    display: block;
+    justify-content: center;
+    box-sizing: border-box;
+    outline: none;
+    background-color: white;
+    margin: 25px 30px;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+main .service .box .content img{
+    height: 200px;
+    width: 100%;
+    image-rendering: pixelated;
+    image-resolution: 1080px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+}
+
+main .service .box .content .price h2,h5,h3{
+    display: flex;
+    justify-content:baseline;
+ 
+    margin-top: 10px;
+}
+
+main .service .box .content .price h5{
+    margin-top: 20px;
+    font-size: 21px;
+    font-weight: lighter;
+}
+
+main .service .box .content .order ul{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+} 
+
+main .service .box .content .order ul li{
+    margin-left: 20px 30px;
+    list-style: none;
+    padding: 15px;
+    border-radius: 15px;
+}
+main .service .box .content .order ul li a{
+    text-decoration: none;
+    color:white;
+}
+
+main .service .box .content .order ul li:first-of-type{
+    background-color: #faba2d;
+    margin-right: 10px;
+}
+main .service .box .content .order ul li:last-of-type{
+    background-color: #353047;
+    margin-left: 10px;
+}
+
+main .service .more{
+    display: flex;
+    justify-content: center;
+}
+main .service .more ul li{
+    list-style: none;
+    background-color: #faba2d;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+main .service .more ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+main .slider{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+main .slider .section{
+    padding: 60px 15px;
+    display: flex;
+    justify-content: center;
+}
+
+main .slider .container{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    justify-content: center;
+    background-color: #f3f3f1;
+    padding: 0px 15px;
+}
+
+main .slider .container .but{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .slider .container .but ul{
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    align-items: center;
+    padding: 0px;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+
+main .slider .container .but ul li {
+    list-style: none;
+}
+
+main .slider .container .content{
+    padding: 40px;
+    margin: 30px 0px;
+}
+
+main .slider .container .content .top{
+    display: grid;
+    grid-template-columns: 1fr 1fr;  
+}
+main .slider .container .content .top .left{
+    display: grid;
+    grid-template-rows: 4fr 2fr;
+    width: 425px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+main .slider .container .content .top .left .b_img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    outline: none;
+    box-sizing: border-box;
+    width: 100%;
+    height:100%;
+}
+
+main .slider .container .content .top .left .t_img{
+    width: 425px;
+    overflow: hidden;
+    image-rendering: optimizeQuality;
+    display: inline-block;
+    box-sizing: border-box;
+    outline: none;
+    
+}
+
+main .slider .container .content .top .left .t_img img{
+    width: 425px;
+    height: 100%;
+    image-rendering: optimizeQuality;
+    display: inline-block;
+    box-sizing: border-box;
+    outline: none;
+    
+}
+
+main .slider .container .content .top .left .b_img img{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    margin-top: 0px;
+    margin-left: 2%;
+    display: inline-block;
+    box-sizing: border-box;
+    outline: none;
+}
+
+main .slider > .container > .content > .top > .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline !important;
+}
+
+main .slider .container .content .top .right h2{
+    font-size: 16px;
+    padding: 0px !important;
+    margin-top: 20px;
+}
+main .slider .container .content .top .right h3{
+    font-size: 16px;
+    padding: 0px !important;
+    margin-top: 20px;
+}
+main .slider .container .content .top .right > div{
+    padding: 20px;
+}
+
+main > .slider .container .content .top .right h1{
+    font-size: 24px;
+    padding: 0px !important;
+}
+
+main .slider .container .content > .bottom{
+    display: flex;
+    justify-content: center;
+}
+
+main .slider .container .content .bottom ul{
+    padding: 20px 40px;
+    border-radius: 10px;
+    background-color:#faba2d;
+}
+
+main .slider .container .content .bottom ul li{
+    list-style: none;
+}
+
+main .slider .slide{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+main .slider .slide > div{
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 20px;
+    background-color: #979595;
+}
+
+main .slider .slide > .active{
+    background-color: #faba2d;
+    
+}
+
+main .why_us > .section{
+    display: flex;
+    justify-content: center;
+    padding: 60px 15px;
+    font-size: 32px;
+}
+
+main .why_us > .content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0px 100px;
+    justify-content: center;
+    grid-column-gap: 2px;   
+}
+
+main .why_us > .content > div{
+    display: flex;
+    justify-content: baseline;
+    padding: 20px;
+}
+
+main .why_us > .content > div h4{
+    font-size: 16px;
+    font-weight: 300;
+    color:dimgrey;
+}
+
+main .why_us > .content > div img{
+    margin-right: 20px;
+}
+
+main .why_us > .order{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+main .why_us > .order ul{
+    padding: 20px 40px;
+    background-color: #faba2d;
+    border-radius: 10px;
+}
+
+main .why_us > .order ul li{
+    list-style: none;
+}
+
+main .why_us > .order ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+main .req{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    justify-content: center;
+    align-content: center;
+    background-color: #353047;
+    padding: 50px;
+}
+
+main .req .req_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+
+main .req .req_content > h1{
+    padding: 15px !important;
+    font-size: 32px;
+}
+
+main .req .req_content h3{
+    padding: 10px !important;
+    margin: 0px !important;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+main .req .req_content input{
+    width: 90%;
+    padding: 20px 0px;
+    margin-top: 10px;
+}
+
+main .req .req_content h4{
+    padding: 20px;
+}
+
+main .req .req_content ul{
+    width: 100%;
+    padding: 20px 0px;
+    background-color: #faba2d;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+main .req .req_content ul li{
+    list-style: none;
+}
+main .req .req_content ul li a{
+    text-decoration: none;
+    color:black;
+}
+
+main .fact .fact_sec{
+    padding: 10px 16px;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+main .fact_cont{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content:center;   
+}
+
+main .fact_cont .fact_box{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    
+}
+
+main .fact_cont .fact_box >div{
+    padding: 10px;
+    justify-content: flex-end;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    overflow-y: hidden;
+    background-color: #faba2d;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+main .fact_cont .fact_box >div img{
+    width: 32px;
+    height: 32px;
+}
+
+
+footer{
+    background-color: #353047;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 20px 0px;
+    margin-top:20px;
+}
+
+footer .logo, .copy_right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .logo img{
+    width: 100px;
+    height: 100px;
+}
+
+footer .social_media ul{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    height: 100%;
+}
+
+footer .social_media ul li{
+    list-style: none;
+    background-color: #faba2d;
+    margin-left: 10px;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+
+footer .social_media ul li a{
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+footer .social_media ul li a img{
+    width: 30px;
+    height: 30px;
+}
+
+footer .contact_footer > div , h3{
+    display: flex;
+    justify-content: center;
+}
+
+footer .contact_footer >div >ul li{
+    list-style: none;
+    padding: 5px;
+}
+
+footer .contact_footer > div > ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    
+}
+@media screen and (max-width:1250px){
+    body > .bottom{
+        display: block;
+    }
+
+    body > .bottom .nav{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    body > .bottom .nav ul{
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr 1fr;
+       align-items: center;
+       justify-content: center;
+    }
+    body > .bottom .nav ul li a{
+        font-size: 10px;
+        padding: 0px 10px;
+        width: 100%;
+        text-align: center;
+    }
+
+    main .under_header{
+        flex-direction: column; 
+    }
+    main .under_header h1{
+        font-size: 18px;
+        text-align: center;
+    }
+    main .under_header h3{
+        font-size: 12px;
+        text-align: center;
+    }
+    main .under_header h2{
+        font-size: 15px;
+        text-align: center;
+    }
+main .under_header .left > .bottom > input {
+    padding: 10px 0px;
+}
+main .under_header .left > .bottom{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+}
+main .under_header .left > .bottom h6{
+    text-align: center;
+}
+main .under_header .left > .bottom form
+{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+main .under_header .left > .bottom form > label{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+main .under_header .left > .bottom form >label> input{
+    padding: 10px 0px;
+    width: min-content;
+
+}
+main .under_header .left > .bottom form button{
+    background-color: #faba2d;
+    padding: 10px 0px;
+}
+
+main .counter h1{
+    font-size: 20px;
+    text-align: center;
+}
+main .counter h3{
+    text-align: center;
+}
+
+    main h2{
+        font-size: 20px;
+    }
+
+    h3{
+        font-size: 15px;
+    }
+    main h1{
+        font-size: 18px;
+    }
+    main .car_c{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    main .car_c > div a{
+        padding: 10px 0px;
+        font-size: 12px;
+        width: auto;
+        text-align: center;
+    }
+    main .car_c h5{
+        text-align: center;
+        font-size: 18px;
+    }
+    main .checks_main{
+        flex-direction: column;
+        align-items: center;
+    }
+    main .checks_main h1{
+        font-size: 18px !important;
+        text-align: center;
+    }
+    main .checks_main h6{
+        font-size: 12px !important;
+        text-align: center;
+    }
+    main .save .section_main{
+        overflow: hidden;
+    }
+    main .save .section_main span{
+        border-bottom: none;
+        color: #faba2d;
+        text-decoration: underline;
+        border: none !important;
+    }
+
+    main .save_cont{
+        flex-direction: column;
+    }
+    main .save_cont > div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0px !important;
+    }
+    main .save_cont > div > h1{
+        font-size: 18px !important;
+    }
+    main .save_cont > div > h6{
+        font-size: 12px !important;
+    }
+    main .ad_section h1{
+        font-size: 20px !important;
+    }
+    main .ad_container{
+        flex-direction: column;
+    }
+    main .ad_2{
+        flex-direction: column;
+    }
+    main .ad_2 > .right{
+        margin: 0px;
+    }
+
+    main .ad_content div:last-of-type h1{
+        font-size: 18px !important;
+    }
+
+    main .service .box{
+        flex-direction: column;
+        align-items: center;
+    }
+    main .service .box .content img{
+        height: 100%;
+    }
+    main .slider .container .content .top{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    main .why_us .content{
+        grid-template-columns: 1fr;
+        margin: 0px !important;
+        text-align: center;
+    }
+    main .why_us .content > div{
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    main .req{
+        display: grid;
+        grid-template-columns: 1fr!important;
+        padding: 30px !important;
+    }
+    main .req .req_content{
+        margin: 0px;
+        padding: 0px !important;
+    }
+    main .fact_cont .fact_box{
+        display: grid;
+        grid-template-columns: 1fr 5fr;
+    }
+    main .fact_cont .fact_box >div{
+        width: 16px;
+        height: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .ad_2{
+        padding: 20px;
+    }
+
+    main .ad_2 .ad_left{
+        padding: 0px;
+    }
+
+    main > .ad_2 .ad_left > div:last-of-type > div h3 {
+        font-size: 18px;
+        padding: 0px;
+    }
+    
+    .bottom{
+    
+    justify-content: space-between;
+    align-items: center;
+    
+    }
+
+    .bottom ul{
+        display: flex;
+        margin-left: 10px;
+    }
+    .bottom .nav ul li{
+        list-style: none;
+        width:100%;
+    }
+    .bottom ul li a{
+        color: black;
+        font-size: 12px;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+}
+
+@media  screen and (max-width:800px){
+    footer{
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+    header a{
+        font-size: 12px;
+    }
+}
